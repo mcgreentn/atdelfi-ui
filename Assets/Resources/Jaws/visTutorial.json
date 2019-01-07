@@ -1,0 +1,24 @@
+{
+	"gameInfo" : {
+		"gameName"		: "jaws",
+		"avatarInfo"	: "You are the ShootAvatar.",
+		"controlsInfo"	: "To move as the ShootAvatar, use the arrow keys to turn and move. Press space to shoot a torpedo (moving).",
+		"avatarImage"	: "newset/submarine"
+	},
+	"winRules" : [
+
+		{"text" : 	"If time reaches 1000 seconds, then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If moving and fish collide, then the moving sprite will be destroyed.", "images":["simulation/game31/frames/frame136.png", "simulation/game31/frames/frame137.png", "simulation/game31/frames/frame138.png", "simulation/game31/frames/frame139.png", "simulation/game31/frames/frame140.png", "simulation/game33/frames/frame119.png", "simulation/game33/frames/frame120.png", "simulation/game33/frames/frame121.png", "simulation/game33/frames/frame122.png", "simulation/game33/frames/frame123.png", "simulation/game33/frames/frame119.png", "simulation/game33/frames/frame120.png", "simulation/game33/frames/frame121.png", "simulation/game33/frames/frame122.png", "simulation/game33/frames/frame123.png", "simulation/game34/frames/frame16.png", "simulation/game34/frames/frame17.png", "simulation/game34/frames/frame18.png", "simulation/game34/frames/frame19.png", "simulation/game34/frames/frame20.png"]},
+		{"text" : 	"If there are no more avatar (moving) sprites then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the shell (Resource) and the avatar (moving) collide, then you will gain 1 point.", "images":["simulation/game33/frames/frame18.png", "simulation/game33/frames/frame19.png", "simulation/game33/frames/frame20.png", "simulation/game33/frames/frame21.png", "simulation/game33/frames/frame22.png"]},
+		{"text" : 	"If the sharkFang (Resource) and the avatar (moving) collide, then you will gain 1000 points.", "images":["simulation/game24/frames/frame781.png", "simulation/game24/frames/frame782.png", "simulation/game24/frames/frame783.png", "simulation/game24/frames/frame784.png", "simulation/game24/frames/frame785.png"]},
+		{"text" : 	"If the whale (fish) and the torpedo (moving) collide, then you will gain 1 point.", "images":["simulation/game33/frames/frame39.png", "simulation/game33/frames/frame40.png", "simulation/game33/frames/frame41.png", "simulation/game33/frames/frame42.png", "simulation/game33/frames/frame43.png"]},
+		{"text" : 	"If the piranha (fish) and the torpedo (moving) collide, then you will gain 1 point.", "images":["simulation/game33/frames/frame17.png", "simulation/game33/frames/frame18.png", "simulation/game33/frames/frame19.png", "simulation/game33/frames/frame20.png", "simulation/game33/frames/frame21.png"]}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"gameInfo" : {
+		"gameName"		: "zelda",
+		"avatarInfo"	: "You are the avatar.",
+		"controlsInfo"	: "To move as the avatar, use the arrow keys to turn and move. Press space to use the sword (OrientedFlicker).",
+		"avatarImage"	: "oryx/swordman1"
+	},
+	"winRules" : [
+
+		{"text" : 	"If nokey (avatar) and key (Immovable) collide, then the nokey (avatar) sprite will be transformed into withkey (avatar).", "images":["simulation/game30/frames/frame10.png", "simulation/game30/frames/frame11.png", "simulation/game30/frames/frame12.png", "simulation/game30/frames/frame13.png", "simulation/game30/frames/frame14.png"]},
+		{"text" : 	"If goal (Door) and withkey (avatar) collide, then the goal (Door) sprite will be opened.", "images":["simulation/game24/frames/frame50.png", "simulation/game24/frames/frame51.png", "simulation/game24/frames/frame52.png", "simulation/game24/frames/frame53.png", "simulation/game24/frames/frame54.png"]},
+		{"text" : 	"If there are no more goal (Door) sprites then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If avatar and enemy collide, then the avatar sprite will be destroyed.", "images":["simulation/game33/frames/frame212.png", "simulation/game33/frames/frame213.png", "simulation/game33/frames/frame214.png", "simulation/game33/frames/frame215.png", "simulation/game33/frames/frame216.png", "simulation/game34/frames/frame460.png", "simulation/game34/frames/frame461.png", "simulation/game34/frames/frame462.png", "simulation/game34/frames/frame463.png", "simulation/game34/frames/frame464.png", "simulation/game27/frames/frame840.png", "simulation/game27/frames/frame841.png", "simulation/game27/frames/frame842.png", "simulation/game27/frames/frame843.png", "simulation/game27/frames/frame844.png"]},
+		{"text" : 	"If there are no more nokey (avatar) sprites or withkey (avatar) sprites then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the nokey (avatar) and the key (Immovable) collide, then you will gain 1 point.", "images":["simulation/game30/frames/frame10.png", "simulation/game30/frames/frame11.png", "simulation/game30/frames/frame12.png", "simulation/game30/frames/frame13.png", "simulation/game30/frames/frame14.png"]},
+		{"text" : 	"If the enemy and the sword (OrientedFlicker) collide, then you will gain 2 points.", "images":["simulation/game31/frames/frame129.png", "simulation/game31/frames/frame130.png", "simulation/game31/frames/frame131.png", "simulation/game31/frames/frame132.png", "simulation/game31/frames/frame133.png", "simulation/game32/frames/frame1946.png", "simulation/game32/frames/frame1947.png", "simulation/game32/frames/frame1948.png", "simulation/game32/frames/frame1949.png", "simulation/game32/frames/frame1950.png", "simulation/game33/frames/frame57.png", "simulation/game33/frames/frame58.png", "simulation/game33/frames/frame59.png", "simulation/game33/frames/frame60.png", "simulation/game33/frames/frame61.png"]},
+		{"text" : 	"If the goal (Door) and the withkey (avatar) collide, then you will gain 1 point.", "images":["simulation/game24/frames/frame50.png", "simulation/game24/frames/frame51.png", "simulation/game24/frames/frame52.png", "simulation/game24/frames/frame53.png", "simulation/game24/frames/frame54.png"]}
+	]
+}

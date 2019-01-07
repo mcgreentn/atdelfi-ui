@@ -1,0 +1,22 @@
+{
+	"gameInfo" : {
+		"gameName"		: "butterflies",
+		"avatarInfo"	: "You are the MovingAvatar.",
+		"controlsInfo"	: "To move as the MovingAvatar, use the four arrow keys to move.",
+		"avatarImage"	: "oryx/angel1"
+	},
+	"winRules" : [
+
+		{"text" : 	"If butterfly (animal) and avatar (animal) collide, then the butterfly (animal) sprite will be destroyed.", "images":["simulation/game33/frames/frame90.png", "simulation/game33/frames/frame91.png", "simulation/game33/frames/frame92.png", "simulation/game33/frames/frame93.png", "simulation/game33/frames/frame94.png"]},
+		{"text" : 	"If there are no more butterfly (animal) sprites then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If cocoon (Immovable) and butterfly (animal) collide, then the cocoon (Immovable) sprite will be destroyed.", "images":["simulation/game33/frames/frame0.png", "simulation/game33/frames/frame0.png", "simulation/game33/frames/frame1.png", "simulation/game33/frames/frame2.png", "simulation/game33/frames/frame3.png"]},
+		{"text" : 	"If there are no more cocoon (Immovable) sprites then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the butterfly (animal) and the avatar (animal) collide, then you will gain 2 points.", "images":["simulation/game33/frames/frame90.png", "simulation/game33/frames/frame91.png", "simulation/game33/frames/frame92.png", "simulation/game33/frames/frame93.png", "simulation/game33/frames/frame94.png"]}
+	]
+}

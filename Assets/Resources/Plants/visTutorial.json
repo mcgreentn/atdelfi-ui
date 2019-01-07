@@ -1,0 +1,22 @@
+{
+	"gameInfo" : {
+		"gameName"		: "plants",
+		"avatarInfo"	: "You are the ShootAvatar.",
+		"controlsInfo"	: "To move as the ShootAvatar, use the arrow keys to turn and move. Press space to use the shovel (OrientedFlicker).",
+		"avatarImage"	: "oryx/rogue"
+	},
+	"winRules" : [
+
+		{"text" : 	"If time reaches 1000 seconds, then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If zombie (shooters) and goal (Door) collide, then the zombie (shooters) sprite will be transformed into eatenBrains (static).", "images":["simulation/game34/frames/frame350.png", "simulation/game34/frames/frame351.png", "simulation/game34/frames/frame352.png", "simulation/game34/frames/frame353.png", "simulation/game34/frames/frame354.png"]},
+		{"text" : 	"If the eatenBrains (static) sprite reaches 1 then you lose.", "images":[]},
+		{"text" : 	"If there are no more avatar (ShootAvatar) sprites then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the zombie (shooters) and the pea (bullets) collide, then you will gain 1 point.", "images":["simulation/game24/frames/frame133.png", "simulation/game24/frames/frame134.png", "simulation/game24/frames/frame135.png", "simulation/game24/frames/frame136.png", "simulation/game24/frames/frame137.png"]}
+	]
+}

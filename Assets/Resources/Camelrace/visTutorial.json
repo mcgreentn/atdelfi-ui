@@ -1,0 +1,23 @@
+{
+	"gameInfo" : {
+		"gameName"		: "camelRace",
+		"avatarInfo"	: "You are the avatar.",
+		"controlsInfo"	: "To move as the avatar, use the four arrow keys to move.",
+		"avatarImage"	: "newset/camel5L"
+	},
+	"winRules" : [
+
+		{"text" : 	"If avatar and goal (structure) collide, then the avatar sprite will be transformed into winnerPlayer (Immovable).", "images":["simulation/game31/frames/frame40.png", "simulation/game31/frames/frame41.png", "simulation/game31/frames/frame42.png", "simulation/game31/frames/frame43.png", "simulation/game31/frames/frame44.png", "simulation/game33/frames/frame94.png", "simulation/game33/frames/frame95.png", "simulation/game33/frames/frame96.png", "simulation/game33/frames/frame97.png", "simulation/game33/frames/frame98.png", "simulation/game31/frames/frame40.png", "simulation/game31/frames/frame41.png", "simulation/game31/frames/frame42.png", "simulation/game31/frames/frame43.png", "simulation/game31/frames/frame44.png", "simulation/game33/frames/frame94.png", "simulation/game33/frames/frame95.png", "simulation/game33/frames/frame96.png", "simulation/game33/frames/frame97.png", "simulation/game33/frames/frame98.png"]},
+		{"text" : 	"If the total amount of winnerPlayer (Immovable) sprites is 1, then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If randomCamel (camel) and goal (structure) collide, then the randomCamel (camel) sprite will be transformed into winnerNPC (Immovable).", "images":[]},
+		{"text" : 	"If camel and goal (structure) collide, then the camel sprite will be transformed into winnerNPC (Immovable).", "images":["simulation/game27/frames/frame75.png", "simulation/game27/frames/frame76.png", "simulation/game27/frames/frame77.png", "simulation/game27/frames/frame78.png", "simulation/game27/frames/frame79.png", "simulation/game26/frames/frame75.png", "simulation/game26/frames/frame76.png", "simulation/game26/frames/frame77.png", "simulation/game26/frames/frame78.png", "simulation/game26/frames/frame79.png"]},
+		{"text" : 	"If the total amount of winnerNPC (Immovable) sprites is 1, then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the avatar and the goal (structure) collide, then you will gain 1 point.", "images":["simulation/game31/frames/frame40.png", "simulation/game31/frames/frame41.png", "simulation/game31/frames/frame42.png", "simulation/game31/frames/frame43.png", "simulation/game31/frames/frame44.png", "simulation/game33/frames/frame94.png", "simulation/game33/frames/frame95.png", "simulation/game33/frames/frame96.png", "simulation/game33/frames/frame97.png", "simulation/game33/frames/frame98.png", "simulation/game31/frames/frame40.png", "simulation/game31/frames/frame41.png", "simulation/game31/frames/frame42.png", "simulation/game31/frames/frame43.png", "simulation/game31/frames/frame44.png", "simulation/game33/frames/frame94.png", "simulation/game33/frames/frame95.png", "simulation/game33/frames/frame96.png", "simulation/game33/frames/frame97.png", "simulation/game33/frames/frame98.png"]}
+	]
+}

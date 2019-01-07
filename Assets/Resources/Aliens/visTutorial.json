@@ -1,0 +1,25 @@
+{
+	"gameInfo" : {
+		"gameName"		: "aliens",
+		"avatarInfo"	: "You are the FlakAvatar.",
+		"controlsInfo"	: "To move as the FlakAvatar, use the left and right arrow keys to move. Press space to shoot a sam (missile).",
+		"avatarImage"	: "oryx/spaceship1"
+	},
+	"winRules" : [
+
+		{"text" : 	"If you press space, then avatar (FlakAvatar) will shoot a sam (Missile).", "images":[]},
+		{"text" : 	"If alien and sam (missile) collide, then the alien sprite will be destroyed.", "images":["simulation/game34/frames/frame76.png", "simulation/game34/frames/frame77.png", "simulation/game34/frames/frame78.png", "simulation/game34/frames/frame79.png", "simulation/game34/frames/frame80.png", "simulation/game32/frames/frame85.png", "simulation/game32/frames/frame86.png", "simulation/game32/frames/frame87.png", "simulation/game32/frames/frame88.png", "simulation/game32/frames/frame89.png"]},
+		{"text" : 	"If there are no more portalSlow (portal) sprites or portalFast (portal) sprites or alienGreen (alien) sprites or alienBlue (alien) sprites then you will win.", "images":[]}
+	],
+	"loseRules" : [
+
+		{"text" : 	"If avatar (FlakAvatar) and alien collide, then the avatar (FlakAvatar) sprite will be destroyed.", "images":["simulation/game33/frames/frame859.png", "simulation/game33/frames/frame860.png", "simulation/game33/frames/frame861.png", "simulation/game33/frames/frame862.png", "simulation/game33/frames/frame863.png"]},
+		{"text" : 	"If avatar (FlakAvatar) and bomb (missile) collide, then the avatar (FlakAvatar) sprite will be destroyed.", "images":["simulation/game32/frames/frame329.png", "simulation/game32/frames/frame330.png", "simulation/game32/frames/frame331.png", "simulation/game32/frames/frame332.png", "simulation/game32/frames/frame333.png"]},
+		{"text" : 	"If there are no more avatar (FlakAvatar) sprites then you will lose.", "images":[]}
+	],
+	"pointsRules" : [
+
+		{"text" : 	"If the alien and the sam (missile) collide, then you will gain 2 points.", "images":["simulation/game34/frames/frame76.png", "simulation/game34/frames/frame77.png", "simulation/game34/frames/frame78.png", "simulation/game34/frames/frame79.png", "simulation/game34/frames/frame80.png", "simulation/game32/frames/frame85.png", "simulation/game32/frames/frame86.png", "simulation/game32/frames/frame87.png", "simulation/game32/frames/frame88.png", "simulation/game32/frames/frame89.png"]},
+		{"text" : 	"If the base (Immovable) and the sam (missile) collide, then you will gain 1 point.", "images":["simulation/game34/frames/frame0.png", "simulation/game34/frames/frame1.png", "simulation/game34/frames/frame2.png", "simulation/game34/frames/frame3.png", "simulation/game34/frames/frame0.png"]}
+	]
+}
